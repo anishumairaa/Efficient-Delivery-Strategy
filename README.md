@@ -1,12 +1,12 @@
 # PosLaju Delivery Strategy
 ## Transforming Delivery Efficiency Through Data-Driven Innovation Using 0/1 Knapsack and Prim's Algorithms
 ### Contents
-[Overview](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#overview)  
-[Problem Statement](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#problem-statement)  
-[Objectives](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#objectives)  
-[Scenario Model](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#scenario-model)  
-[Proposed Solution](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#proposed-solution)  
-[Getting Started](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#getting-started)  
+[Overview](https://github.com/anishumairaa/Efficient-Delivery-Strategy/blob/main/README.md#overview)  
+[Problem Statement](https://github.com/anishumairaa/Efficient-Delivery-Strategy/blob/main/README.md#problem-statement)  
+[Objectives](https://github.com/anishumairaa/Efficient-Delivery-Strategy/blob/main/README.md#objectives)  
+[Scenario Model](https://github.com/anishumairaa/Efficient-Delivery-Strategy/blob/main/README.md#scenario-model)  
+[Proposed Solution](https://github.com/anishumairaa/Efficient-Delivery-Strategy/blob/main/README.md#proposed-solution)  
+[Getting Started](https://github.com/anishumairaa/Efficient-Delivery-Strategy/blob/main/README.md#getting-started)  
 [Results](https://github.com/anishumairaa/Efficient-Delivery-Strategy/blob/main/README.md#results)  
 
 ## Overview
