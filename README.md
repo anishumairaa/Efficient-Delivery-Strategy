@@ -74,7 +74,13 @@ The route should not be cycled. Delivery man should not deliver the same parcel 
 
 ## Proposed Solution  
 - Modified 0/1 Knapsack
-- Prim's  
+  <p align="center">
+  <img src="knapsack_flowchart.png" alt="Delivery Route" width="500">
+</p>
+- Prim's
+  <p align="center">
+  <img src="prim_flowchart.png" alt="Delivery Route" width="400">
+</p>
 
 
 ### Getting Started
