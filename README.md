@@ -42,7 +42,10 @@ This project aims to identify the most efficient algorithm for delivery route op
   Determine the optimal delivery route starting from **Serdang**, covering multiple destinations effectively.
 
 ## Visualization 
-![Delivery Route](route_delivery.png)
+<p align="center">
+  <img src="route_delivery.png" alt="Delivery Route" width="400">
+</p>
+
 
 ### Getting Started
 Prerequisites
