@@ -2,7 +2,9 @@
 ## Transforming Delivery Efficiency Through Data-Driven Innovation
 
 ## Overview
-PosLaju Delivery Strategy is a CSC4202 2025 Group 9 project that leverages algorithm analysis to optimize delivery operations.
+PosLaju Delivery Strategy is a CSC4202 2025 Group 9 project that leverages algorithm analysis to optimize delivery operations.  
+  
+In optimizing its delivery operations, PosLaju faces the challenge of selecting the most profitable combination of parcels while minimizing the total delivery distance within the constraint of the lorry’s limited capacity. Selecting parcels that provide the highest profit without exceeding the truck’s weight limit is a combinatorial problem that requires careful decision-making. Additionally, determining the shortest possible delivery route to multiple destinations is crucial to reduce delivery time and operational costs. This dual-objective scenario presents a complex logistics problem that involves both parcel selection and route planning. Therefore, an efficient algorithmic solution is required to simultaneously address parcel selection for maximum profit and route optimization for minimum distance, ensuring timely deliveries and cost-effective operations.
 
 ## Problem statement
 
