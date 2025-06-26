@@ -1,5 +1,5 @@
 # PosLaju Delivery Strategy
-## Transforming Delivery Efficiency Through Data-Driven Innovation
+## Transforming Delivery Efficiency Through Data-Driven Innovation Using 0/1 Knapsack and Prim's Algorithms
 
 ## Overview
 PosLaju Delivery Strategy is a CSC4202 2025 Group 9 project that leverages algorithm analysis to optimize delivery operations.  
@@ -43,10 +43,38 @@ This project aims to identify the most efficient algorithm for delivery route op
 - 🗺️ **Route Identification**  
   Determine the optimal delivery route starting from **Serdang**, covering multiple destinations effectively.
 
-## Visualization 
+## Scenario Model  
+### Visualization 
 <p align="center">
   <img src="route_delivery.png" alt="Delivery Route" width="400">
 </p>
+
+### Data Type  
+| No. | Data                             | Type                      | Description                                 |
+|-----|----------------------------------|---------------------------|---------------------------------------------|
+| 1   | Parcel ID                        | Integer                   | Unique identifier for each parcel           |
+| 2   | Profit per Parcel                | Integer                   | Profit earned when delivering a parcel      |
+| 3   | Truck Capacity                   | Integer (kg)              | Maximum available weight capacity in a truck|
+| 4   | Weight                           | Integer (kg)              | Weight of a parcel                          |
+| 5   | Hub location and delivery location | Categorical (e.g., Bukit Jalil) | Nodes in a graph                     |
+| 6   | Distance Between Nodes           | Integer (kilometer)       | Distance between hub and delivery location  |
+
+### Scenario Constraints  
+- Can not exceed truck capacity  
+All parcels that are selected can’t exceed the truck capacity. The truck capacity is decided in simulation’s methodology.  
+
+- 0/1 decision only  
+It must either deliver or not deliver the parcel. Delivery man should not choose both or half.  
+
+- Route must be connected  
+The selected parcel’s route must form a connection. Delivery man should not jump from one point to another without a path.  
+
+- No cycles  
+The route should not be cycled. Delivery man should not deliver the same parcel two times or more.  
+
+## Proposed Solution  
+- Modified 0/1 Knapsack
+- Prim's  
 
 
 ### Getting Started
