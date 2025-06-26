@@ -1,5 +1,12 @@
 # PosLaju Delivery Strategy
 ## Transforming Delivery Efficiency Through Data-Driven Innovation Using 0/1 Knapsack and Prim's Algorithms
+### Contents
+[Overview](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#overview)  
+[Problem Statement](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#problem-statement)  
+[Objectives](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#objectives)  
+[Scenario Model](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#scenario-model)  
+[Proposed Solution](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#proposed-solution)  
+[Getting Started](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#getting-started)
 
 ## Overview
 PosLaju Delivery Strategy is a CSC4202 2025 Group 9 project that leverages algorithm analysis to optimize delivery operations.  
@@ -16,7 +23,7 @@ Pak Cik Adam
 
 Poslaju delivery man wants to minimize the total distance traveled  to deliver parcels while also maximizing the profit earned from each delivery.
 
-## Objective
+## Objectives
 
 To determine the most efficient algorithm for optimizing parcel delivery, considering both profit maximization and route minimization under truck capacity constraints.
 
@@ -27,7 +34,7 @@ To determine the most efficient algorithm for optimizing parcel delivery, consid
 3. Make informed decisions to improve efficiency and reduce costs
 
 
-## 📊 Performance Evaluation Objectives
+### 📊 Performance Evaluation Objectives
 
 This project aims to identify the most efficient algorithm for delivery route optimization based on the following key metrics:
 
@@ -73,17 +80,24 @@ The selected parcel’s route must form a connection. Delivery man should not ju
 The route should not be cycled. Delivery man should not deliver the same parcel two times or more.  
 
 ## Proposed Solution  
-- Modified 0/1 Knapsack
+### Methodology
+1. Run Prim’s
+2. From the result, use the total weight from Prim’s as Knapsack limit
+3. Run Knapsack to see what profit is achievable with the weight limit
+4. Compare the Prim’s route and Knapsack result
+
+### Modified 0/1 Knapsack
   <p align="center">
   <img src="knapsack_flowchart.png" alt="Delivery Route" width="500">
 </p>
-- Prim's
+
+### Prim's
   <p align="center">
   <img src="prim_flowchart.png" alt="Delivery Route" width="400">
 </p>
 
 
-### Getting Started
+## Getting Started
 Prerequisites
 This project requires:
 
