@@ -96,6 +96,19 @@ The route should not be cycled. Delivery man should not deliver the same parcel 
   <img src="prim_flowchart.png" alt="Delivery Route" width="400">
 </p>
 
+### Constants and Performance Metrics
+| 📌 **Constant Value**    | 🔢 **Value**   |
+|--------------------------|----------------|
+| 🚚 Truck Capacity         | 81 kg          |
+| 📦 Total Number of Parcels| 40             |  
+
+
+| 🧪 **Metric**            | 📋 **Description**                                  |
+|--------------------------|-----------------------------------------------------|
+| 💰 Total Profit Gained   | The total profit earned from selected parcels       |
+| 🛣️ Total Distance Traveled | The cumulative distance covered in delivery routes |
+| ⏱️ Time Execution         | The total time taken to run the algorithm (ms)      |
+
 
 ## Getting Started
 Prerequisites
@@ -127,6 +140,16 @@ pip install networkx matplotlib
 python PoslajuDelivery.ipynb
 ```
 
+## Results
+| Metrics                      | 0/1 Knapsack | Prim’s     |
+|-----------------------------|--------------|------------|
+| Maximum Profit (RM)         | 775          | 709        |
+| Total Distance Traveled (km)| 481.40       | 88.10      |
+| Total Weight (kg)           | 79           | 81         |
+| Time Execution (ms)         | 0.99444      | 0.24271    |  
 
-Transforming Delivery Efficiency Through Data-Driven Innovation
+✅ Knapsack earns 9.31% more profit than Prim’s  
+❌ Knapsack travels 446.42% more distance than Prim’s  
+  
+### 🚀 Prim's algorithm is more efficient!!
 
