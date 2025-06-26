@@ -6,7 +6,8 @@
 [Objectives](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#objectives)  
 [Scenario Model](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#scenario-model)  
 [Proposed Solution](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#proposed-solution)  
-[Getting Started](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#getting-started)
+[Getting Started](https://github.com/anishumairaa/Efficient-Delivery-Strategy/edit/main/README.md#getting-started)  
+[Results](https://github.com/anishumairaa/Efficient-Delivery-Strategy/blob/main/README.md#results)  
 
 ## Overview
 PosLaju Delivery Strategy is a CSC4202 2025 Group 9 project that leverages algorithm analysis to optimize delivery operations.  
