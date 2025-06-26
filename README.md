@@ -69,7 +69,10 @@ cd Efficient-Delivery-Strategy
 pip install networkx matplotlib
 ```
 
-4. Run the codes
+4. Run the codes (in terminal)
+```bash
+python PoslajuDelivery.ipynb
+```
 
 
 Transforming Delivery Efficiency Through Data-Driven Innovation
